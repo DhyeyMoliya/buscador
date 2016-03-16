@@ -18,54 +18,79 @@
 <body class="page-brand" id="page-start">
     <header class="header header-brand header-standard margin-left-no margin-right-no affix-top">
         <a class="header-logo" href="#page-start">Buscador</a>
-        <ul class="nav nav-list pull-right">
+        <ul class="nav nav-list pull-right hidden-xs hidden-xx">
             <li><a class="waves-attach waves-effect" href="#page-start">Download</a></li>
             <li><a class="waves-attach waves-effect" href="#about">About</a></li>
             <li><a class="waves-attach waves-effect" href="#features">Features</a></li>
             <li><a class="waves-attach waves-effect" href="#get-started">Get Started</a></li>
             <li><a class="waves-attach waves-effect" href="#contact-us">Contact Us</a></li>
         </ul>
+        <ul class="margin-no nav nav-list hidden-lg hidden-md hidden-sm pull-right">
+            <li class="dropdown">
+                <a class="dropdown-toggle text-black waves-attach waves-effect" data-toggle="dropdown"><span class="icon">more_vert</span></a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="btn btn-brand btn-flat waves-attach waves-button waves-light waves-effect" href="#page-start">Download</a>
+                    </li>
+                    <li>
+                        <a class="btn btn-brand btn-flat waves-attach waves-button waves-light waves-effect" href="#about">About</a>
+                    </li>         
+                    <li>          
+                        <a class="btn btn-brand btn-flat waves-attach waves-button waves-light waves-effect" href="#features">Features</a>
+                    </li>         
+                    <li>          
+                        <a class="btn btn-brand btn-flat waves-attach waves-button waves-light waves-effect" href="#get-started">Get Started</a>
+                    </li>        
+                    <li>         
+                        <a class="btn btn-brand btn-flat waves-attach waves-button waves-light waves-effect" href="#contact-us">Contact Us</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
     </header>
     <main class="content">
         <div class="parallax-window" data-parallax="scroll" data-image-src="images/parallax1.jpg">
-            <div id="parallax-data">
-                <p style="font-size: 40px; margin-bottom: 30px;">Buscador</p>
-                <a href="#page-start" class="btn btn-brand waves-attach waves-button waves-light" style="margin-right: 15px;">Download Now!</a>
-                <a href="#get-started" class="btn btn-brand waves-attach waves-button waves-light">Learn More!</a>
+            <div class="row">
+                <div id="parallax-data" class="col-md-5 col-md-offset-7 col-sm-6 col-sm-offset-6 col-xs-10 col-xs-offset-2">
+                    <p style="font-size: 40px; margin-bottom: 30px;">Buscador</p>
+                    <a href="#page-start" class="btn btn-brand waves-attach waves-button waves-light" style="margin-right: 15px;">Download Now!</a>
+                    <a href="#get-started" class="btn btn-brand waves-attach waves-button waves-light">Learn More!</a>
+                </div>
             </div>
         </div>
         <div id="about">
             <div class="parallax-window" data-parallax="scroll" data-image-src="images/parallax1.jpg">
-                <div class="col-md-6" style="background-color: white; height: 550px;">
+                <div class="col-md-6 col-sm-6 col-xs-12" style="background-color: white; height: 550px;">
                     <h2>About</h2>
                     <p>Write something about product....</p>
                 </div>
             </div>
         </div>
+
         <div id="features" class="parallax-window" data-parallax="scroll" data-image-src="images/parallax1.jpg">
-            <div class="col-md-6 col-md-offset-6" style="background-color: white; height: 550px;">
+            <div class="col-md-6 col-md-offset-6 col-sm-6 col-sm-offset-6 col-xs-12 " style="background-color: white; height: 550px;">
                 <h2>Features</h2>
                 <p>Write something about product.....</p>
             </div>
         </div>
         <div id="get-started" class="parallax-window" data-parallax="scroll" data-image-src="images/parallax1.jpg">
-            <div class="col-md-6" style="background-color: white; height: 550px;">
+            <div class="col-md-6 col-sm-6 col-xs-12" style="background-color: white; height: 550px;">
                 <h2>Get Started</h2>
                 <p>Write something about product.....</p>
             </div>
         </div>
         <div id="contact-us" class="parallax-window" data-parallax="scroll" data-image-src="images/parallax1.jpg">
-            <div class="col-md-6 col-md-offset-6" style="background-color: white; height: 550px;">
+            <div class="col-md-6 col-md-offset-6 col-sm-6 col-sm-offset-6 col-xs-12" style="background-color: white; height: 550px;">
                 <h2>Contact Us</h2>
                 <p>Write something about product....</p>
             </div>
         </div>
-        <div id="static-fbtns" class="hidden-xs">
-	        <a id="down-fbtn" class="fbtn fbtn-brand fbtn-lg waves-attach waves-button waves-light" href="#page-start" >
-	            <span class="fbtn-text">Download</span>
-	            <span class="material-icons md-36">get_app</span>
-	        </a>
-        </div>    
+        <div id="static-fbtns" class="hidden-xx">
+            <a id="down-fbtn" class="fbtn fbtn-brand fbtn-lg waves-attach waves-button waves-light hidden-xx" href="#page-start">
+                <span class="fbtn-text">Download</span>
+                <span class="material-icons md-36">get_app</span>
+            </a>
+        </div>
     </main>
     <footer class="footer">
         <div class="container">
@@ -73,8 +98,8 @@
         </div>
     </footer>
 
-    
-    
+
+
     <!-- js -->
     <script src="js/jquery.min.js"></script>
     <script src="js/base.min.js"></script>

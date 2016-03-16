@@ -53,18 +53,13 @@
     font-size: 48px;
 }
 
-body {
-    font-family: Roboto-Regular;
-    font-size: 16px;
-}
-
 .parallax-window {
     min-height: 550px;
     background: transparent;
 }
 
 .header {
-    height: 70px;
+    min-height: 70px;
     padding: 0;
     margin: 0;
     box-shadow: 0 5px 10px rgba(0,0,0,.5);
@@ -101,13 +96,12 @@ body {
     height: inherit;
     padding-top: 300px;
     color: White;
-    float: right;
     z-index: 15;
-    margin-right: 290px;
 }
 
     #parallax-data a {
         padding: 10px 20px;
+        margin-bottom: 10px;
     }
 
 .footer {
@@ -118,6 +112,7 @@ body {
     position: fixed;
     right: 80px;
     bottom: 80px;
+    z-index: 500;
 }
 
 .fbtn-lg {
@@ -128,5 +123,26 @@ body {
 #down-fbtn {
     display: block;
 }
+
+.row {
+    margin: 0;
+}
+
+.dropdown-menu a {
+    width: 100%;
+    color: #fff !important;
+}
+
+.dropdown-menu a:focus, .dropdown-menu a:hover,
+.dropdown-menu .a:focus,
+.dropdown-menu .a:hover {
+    background: transparent;
+}
+
+.dropdown-menu {
+    min-width: 250px;
+    background-color: #3f51b5;
+}
+
 
 
