@@ -144,5 +144,7 @@
     background-color: #3f51b5;
 }
 
-
+.dropdown-toggle {
+	margin-right: 20px;
+}
 
