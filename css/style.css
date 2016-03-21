@@ -58,6 +58,11 @@
     background: transparent;
 }
 
+.parallax-window-small {
+    height: 200px;
+    background: transparent;
+}
+
 .header {
     min-height: 70px;
     padding: 0;

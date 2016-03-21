@@ -34,14 +34,14 @@
                     </li>
                     <li>
                         <a class="btn btn-brand btn-flat waves-attach waves-button waves-light waves-effect" href="#about">About</a>
-                    </li>         
-                    <li>          
+                    </li>
+                    <li>
                         <a class="btn btn-brand btn-flat waves-attach waves-button waves-light waves-effect" href="#features">Features</a>
-                    </li>         
-                    <li>          
+                    </li>
+                    <li>
                         <a class="btn btn-brand btn-flat waves-attach waves-button waves-light waves-effect" href="#get-started">Get Started</a>
-                    </li>        
-                    <li>         
+                    </li>
+                    <li>
                         <a class="btn btn-brand btn-flat waves-attach waves-button waves-light waves-effect" href="#contact-us">Contact Us</a>
                     </li>
                 </ul>
@@ -49,17 +49,24 @@
         </ul>
     </header>
     <main class="content">
-        <div class="parallax-window" data-parallax="scroll" data-image-src="images/Blue.png">
+    <div class="row">
+        
             <div class="row">
                 <div id="parallax-data" class="col-md-5 col-md-offset-7 col-sm-6 col-sm-offset-6 col-xs-10 col-xs-offset-2">
                     <p style="font-size: 40px; margin-bottom: 30px;">Buscador</p>
                     <a href="#page-start" class="btn btn-brand waves-attach waves-button waves-light" style="margin-right: 15px;">Download Now!</a>
                     <a href="#get-started" class="btn btn-brand waves-attach waves-button waves-light">Learn More!</a>
                 </div>
+                <div class="parallax-window" data-parallax="scroll" data-image-src="images/blue.jpg">
             </div>
         </div>
-        <div id="about">
-            <div class="parallax-window" data-parallax="scroll" data-image-src="images/orange.png">
+    </div>
+
+        <div class="parallax-window-small hidden-lg hidden-md hidden-sm" data-parallax="scroll" data-image-src="images/orange.jpg"></div>
+
+
+        <div id="about" class="row">
+            <div class="parallax-window" data-parallax="scroll" data-image-src="images/orange.jpg">
                 <div class="col-md-6 col-sm-6 col-xs-12" style="background-color: white; height: 550px;">
                     <h2>About</h2>
                     <p>Write something about product....</p>
@@ -67,19 +74,27 @@
             </div>
         </div>
 
-        <div id="features" class="parallax-window" data-parallax="scroll" data-image-src="images/green.png">
+        <div class="parallax-window-small hidden-lg hidden-md hidden-sm" data-parallax="scroll" data-image-src="images/green.jpg"></div>
+
+        <div id="features" class="parallax-window" data-parallax="scroll" data-image-src="images/green.jpg">
             <div class="col-md-6 col-md-offset-6 col-sm-6 col-sm-offset-6 col-xs-12 " style="background-color: white; height: 550px;">
                 <h2>Features</h2>
                 <p>Write something about product.....</p>
             </div>
         </div>
+
+        <div class="parallax-window-small hidden-lg hidden-md hidden-sm" data-parallax="scroll" data-image-src="images/red.jpg"></div>
+
         <div id="get-started" class="parallax-window" data-parallax="scroll" data-image-src="images/red.png">
             <div class="col-md-6 col-sm-6 col-xs-12" style="background-color: white; height: 550px;">
                 <h2>Get Started</h2>
                 <p>Write something about product.....</p>
             </div>
         </div>
-        <div id="contact-us" class="parallax-window" data-parallax="scroll" data-image-src="images/cyan.png">
+
+        <div class="parallax-window-small hidden-lg hidden-md hidden-sm" data-parallax="scroll" data-image-src="images/cyan.jpg"></div>
+
+        <div id="contact-us" class="parallax-window" data-parallax="scroll" data-image-src="images/cyan.jpg">
             <div class="col-md-6 col-md-offset-6 col-sm-6 col-sm-offset-6 col-xs-12" style="background-color: white; height: 550px;">
                 <h2>Contact Us</h2>
                 <p>Write something about product....</p>
@@ -102,11 +117,11 @@
 
     <!-- js -->
     <script src="js/jquery.min.js"></script>
+    <script src="js/parallax.min.js"></script>
     <script src="js/base.min.js"></script>
 
     <!-- js for doc -->
     <script src="js/project.min.js"></script>
-    <script src="js/parallax.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
